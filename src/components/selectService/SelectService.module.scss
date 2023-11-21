@@ -1,0 +1,11 @@
+.list {
+  position: sticky;
+  top: 120px;
+  display: flex;
+  width: 20%;
+  margin: 0 50px 50px 50px;
+  flex-direction: column;
+  background-color: var(--bg-content-color);
+  border: 1px solid var(--secondary-color);
+}
+

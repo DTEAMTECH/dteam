@@ -1,0 +1,7 @@
+.container {
+  width: 70%;
+  min-height: calc(100vh - 340px);
+  background-color: var(--bg-content-color);
+  border: 1px solid var(--secondary-color);
+  margin: 0 50px 50px 0;
+}

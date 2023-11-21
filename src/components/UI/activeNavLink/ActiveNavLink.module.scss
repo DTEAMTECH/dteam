@@ -1,0 +1,26 @@
+.active__nav__link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  margin: 0 25px;
+}
+
+.active__nav__link:hover {
+  color: var(--primary-color) !important;
+}
+
+.service__nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  height: 50px;
+  min-height: 50px;
+
+  cursor: pointer;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.service__nav__link:last-child {
+  border-bottom: none;
+}

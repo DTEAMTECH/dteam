@@ -1,0 +1,62 @@
+@import "reset";
+@import "variables/global";
+
+.app {
+  font: var(--font-m);
+
+  background: var(--bg-color);
+  color: var(--secondary-color);
+
+  min-height: 100vh;
+}
+
+:root::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--primary-color);
+
+}
+
+:root::-webkit-scrollbar-track {
+  background-color: var(--bg-color);
+  border-left: 1px solid var(--secondary-color);
+  border-right: 1px solid var(--secondary-color);
+}
+
+:root::-webkit-scrollbar-thumb {
+  background-color: var(--bg-content-color);
+  border: 1px solid var(--secondary-color);
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: var(--primary-color);
+}
+
+h1 {
+  margin: 50px 0;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 70px - 70px);
+  margin: 70px 0 0 0;
+}
+
+.coming__soon {
+  text-decoration: line-through !important;
+  cursor: default !important;
+}
+
+.coming__soon:hover {
+  color: var(--secondary-color) !important;
+}
+
+.title__text {
+  font: var(--font-xl);
+  color: var(--primary-color);
+  text-decoration: none;
+}
