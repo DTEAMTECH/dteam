@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import Title from "../../components/UI/title/Title";
+import Title from "../../shared/ui/title/Title";
 
 const Error = () => {
 

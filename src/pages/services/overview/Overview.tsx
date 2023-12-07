@@ -1,9 +1,9 @@
 import React from 'react';
-import ServicesPageContent from "../../../components/pageContent/servicesPageContent/ServicesPageContent";
+import ServiceNetworksPageContent from "../../../widgets/pageContent/serviceNetworksPageContent/ServiceNetworksPageContent";
 
 const Overview = () => {
     return (
-        <ServicesPageContent title="OVERVIEW"/>
+        <ServiceNetworksPageContent title="OVERVIEW"/>
     );
 };
 

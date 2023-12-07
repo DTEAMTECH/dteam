@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import PageContainer from "../../shared/ui/pageContainer/PageContainer";
 
 const Features = () => {
 
@@ -7,9 +8,9 @@ const Features = () => {
     }, []);
 
     return (
-        <section className="container">
+        <PageContainer>
 
-        </section>
+        </PageContainer>
     );
 };
 

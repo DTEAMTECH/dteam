@@ -8,6 +8,7 @@ export interface ITotalSupplyItem {
     amount: number;
     denom: string;
 }
+
 export interface ITotalSupply {
     supply: ITotalSupplyItem[];
 }

@@ -1,4 +1,4 @@
-import NetworksPageContent from "../../components/pageContent/networksPageContent/NetworksPageContent";
+import NetworksPageContent from "../../widgets/pageContent/networksPageContent/NetworksPageContent";
 import React, {useEffect} from "react";
 
 const Networks = () => {

@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import NetworksPageContent from "../../components/pageContent/networksPageContent/NetworksPageContent";
+import NetworksPageContent from "../../widgets/pageContent/networksPageContent/NetworksPageContent";
 
 const StakingNetworks = () => {
 

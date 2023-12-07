@@ -1,9 +1,9 @@
-import ServicesPageContent from "../../../components/pageContent/servicesPageContent/ServicesPageContent";
+import ServiceNetworksPageContent from "../../../widgets/pageContent/serviceNetworksPageContent/ServiceNetworksPageContent";
 
 const InstallationGuide = () => {
 
     return (
-        <ServicesPageContent title="INSTALLATION GUIDE"/>
+        <ServiceNetworksPageContent title="INSTALLATION GUIDE"/>
     );
 };
 

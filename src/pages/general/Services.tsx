@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
-import Title from "../../components/UI/title/Title";
-import ServicesList from "../../components/servicesList/ServicesList";
+import Title from "../../shared/ui/title/Title";
+import ServicesList from "../../widgets/servicesList/ServicesList";
+import PageContainer from "../../shared/ui/pageContainer/PageContainer";
 
 const Services = () => {
 
@@ -9,10 +10,10 @@ const Services = () => {
     }, []);
 
     return (
-        <section className="container">
+        <PageContainer>
             <Title>SERVICES</Title>
             <ServicesList/>
-        </section>
+        </PageContainer>
     );
 };
 
